@@ -1,1 +1,1 @@
-web: java -cp target/classes/:target/dependency/* haodq4.devicemanagement
+web java -cp target/classes/:target/dependency/* haodq4.devicemanagement

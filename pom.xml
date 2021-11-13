@@ -53,20 +53,11 @@
             <plugin>
                 <groupId>com.heroku.sdk</groupId>
                 <artifactId>heroku-maven-plugin</artifactId>
-                <version>3.0.3</version>
-            </plugin>
-            <plugin>
-                <artifactId>maven-war-plugin</artifactId>
-                <version>3.3.1</version>
+                <version>3.0.4</version>
                 <configuration>
-                    <archive>
-                        <manifest>
-                            <addClasspath>true</addClasspath>
-                        </manifest>
-                    </archive>
-                    <appName>sushi</appName>
+                    <appName>device-managerment</appName>
                     <processTypes>
-                        <web>java $JAVA_OPTS -cp target/classes:target/dependency/* Main</web>
+                        <web>java $JAVA_OPTS -cp target/classes:target/dependency/* com.example.Main</web>
                     </processTypes>
                 </configuration>
             </plugin>

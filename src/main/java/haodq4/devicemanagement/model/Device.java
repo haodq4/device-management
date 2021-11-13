@@ -14,7 +14,7 @@ public class Device{
     private Date modifiedTime;
     private String createdUser;
     private String modifiedUser;
-    private boolean deleted;
+    private Boolean deleted;
 
     private String name;
     private Boolean connected;
@@ -65,11 +65,11 @@ public class Device{
         this.modifiedUser = modifiedUser;
     }
 
-    public boolean isDeleted() {
+    public Boolean isDeleted() {
         return deleted;
     }
 
-    public void setDeleted(boolean deleted) {
+    public void setDeleted(Boolean deleted) {
         this.deleted = deleted;
     }
 
